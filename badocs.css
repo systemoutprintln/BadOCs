@@ -1,0 +1,81 @@
+/*
+
+Bad OC Stylesheet
+
+
+*/
+
+
+
+/* Link flairs */
+.linkflairlabel
+{
+   font-weight:bold;
+   font-size: 16px;
+   padding: 0 10px 0 10px;
+   border-width:0 !important;
+}
+
+.linkflair-RedBlack .linkflairlabel
+{
+
+   color: Red;
+   background-color: Black;
+
+}
+
+.linkflair-Unipeg  .linkflairlabel
+{
+
+   color: #ffae00; /* Gold */
+   background-color: white;
+
+}
+
+.linkflair-DNS .linkflairlabel
+{
+  color:#c5d925;
+  background-color:#4a5d4d;
+  
+}
+
+/* Domain list */
+
+.domain a[href*="deviantart.com"]:before
+{
+  content: url(%%DA%%);
+  width:16px;
+  height:16px;
+  margin-right:10px;
+}
+
+.domain a[href*="imgur.com"]:before
+{
+  content: url(%%Imgur%%);
+  width:16px;
+  height:16px;
+  margin-right:10px;
+}
+/* Readers */
+.users-online .word
+{
+   visibility:hidden!important;
+}
+.users-online .number:after
+{
+   content:" people now playing the DA game"
+}
+.subscribers .word
+{
+   visibility:hidden !important;
+}
+.subscribers .number:after
+{
+   content:" red and black OCs"
+}
+
+/* CLOP */
+.nsfw-stamp acronym:before
+{
+ content: "CLOP-" !important;
+}
